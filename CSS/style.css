@@ -1,0 +1,51 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.heading{
+  font-family: "Yeseva One", serif;
+  font-size: 90px;
+  columns: white;
+  text-align: center;
+}
+.title1{
+  font-family: "Yeseva One", serif;
+  font-size: 36px;
+  line-height: 24px;
+  color: #cc9900;
+  text-align: center;
+}
+.title2{
+  font-family: "Yeseva One", serif;
+  font-size: 36px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+}
+.para{
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  text-align: center;
+}
+.review-para{
+  font-family: "Gentium book plus";
+}
+.btn{
+  font-family: "Lato";
+  font-size: 18px;
+  width: 228px;
+  padding: 18px 32px;
+  background: #00000013;
+  border: 1px solid #00000013;
+  transition: all .02s linear;
+}
+.btn:hover{
+  background-color: rgba(255, 255, 255, 0.091);
+  border: #fff;
+}
+/* global css ends */
+
