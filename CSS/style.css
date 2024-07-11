@@ -9,9 +9,10 @@
 }
 .heading{
   font-family: "Yeseva One", serif;
-  font-size: 90px;
+  font-size: 80px;
   color: white;
   text-align: center;
+  margin: 0px auto 20px;
 }
 .title1{
   font-family: "Yeseva One", serif;
@@ -19,6 +20,7 @@
   line-height: 24px;
   color: #cc9900;
   text-align: center;
+  margin-bottom: 20px;
 }
 .title2{
   font-family: "Yeseva One", serif;
@@ -26,6 +28,7 @@
   line-height: 24px;
   color: white;
   text-align: center;
+  margin-bottom: 20px;
 }
 .para{
   font-family: "Lato";
@@ -33,6 +36,7 @@
   line-height: 24px;
   color: black;
   text-align: center;
+  margin-bottom: 30px;
 }
 .review-para{
   font-family: "Gentium book plus";
@@ -42,13 +46,14 @@
   font-size: 18px;
   width: 228px;
   padding: 18px 32px;
-  background: #00000013;
+  color: #fff;
+  background: #00000071;
   border: 1px solid #00000013;
   transition: all .02s linear;
 }
 .btn:hover{
   background-color: rgba(255, 255, 255, 0.091);
-  border: #fff;
+  border: 1px solid #fff;
 }
 /* global css ends */
 /* header section starts */
@@ -63,5 +68,72 @@
 #header .logo img{
   width: 130px;
 }
+#header nav{
+  width: 100%;
+  background: url('../images/nav-bg.png');
+  background-position: bottom;
+}
+#header .manu{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+  color: #fff;
+  font-family: "gentium book black";
+  transition: all .02s ease;
+  padding: 16px 32px;
+  transition: all .03s linear ;
+}
 
+ul li:hover{
+border-bottom: 3px solid #cc9900;
+background-color: #ffffff2f;
+}
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  gap: 20px;
+}
+
+.banner .buttons{
+  display: flex;
+  gap: 20px;
+  margin-top: 24px;
+}
 /* header section ends */
+/* about section starts */
+#about{
+  background: url('../images/pattern1.png');
+  background-position: center;
+  background-size: cover;
+  
+}
+.plate{
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.plate .Divider{
+  margin-bottom: 30px;
+}
+
+.dish img{
+  width: 600px;
+}
+/* about section ends */
