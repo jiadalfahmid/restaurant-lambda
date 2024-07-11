@@ -20,7 +20,7 @@
   line-height: 24px;
   color: #cc9900;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 .title2{
   font-family: "Yeseva One", serif;
@@ -40,6 +40,10 @@
 }
 .review-para{
   font-family: "Gentium book plus";
+}
+.Divider{
+  text-align: center;
+  margin-bottom: 30px;
 }
 .btn{
   font-family: "Lato";
@@ -170,3 +174,35 @@ background-color: #ffffff2f;
   margin-bottom: 50px;
 }
 /* Ingredients section ends */
+/* menu section starts */
+#menu{
+  background: url('../images/pattern3.png');
+  background-position: center;
+  background-size: cover;
+}
+.menu{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 120px;
+  gap: 60px;
+}
+.menu-container .Divider{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto 20px;
+}
+.menu-container .items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #cc9900;
+  font-family: "Yeseva One", serif;
+  font-size: 20px;
+}
+.menu-container p{
+  text-align: left;
+}
+\
+/* menu section ends */
