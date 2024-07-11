@@ -58,7 +58,7 @@
 /* global css ends */
 /* header section starts */
 #header{
-  background-image: url('../images/Bg\ 1.png');
+  background-image: url('../images/Bg1.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -139,7 +139,7 @@ background-color: #ffffff2f;
 /* about section ends */
 /* Ingredients section starts */
 #ingredients{
-  background: url('../images/bg 2.png');
+  background: url('../images/bg2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
