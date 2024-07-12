@@ -253,6 +253,7 @@ background-color: #ffffff2f;
 }
 .reviews-container{
   background-color: #00000094;
+  border-radius: 10px;
   width: 770px;
   padding: 60px;
   margin: 0px auto;
@@ -263,3 +264,79 @@ background-color: #ffffff2f;
   align-items: center;
 }
 /* review section ends */
+/* Reservations section starts */
+#reservations{
+  background: url('../images/pattern1.png');
+  background-size: cover;
+  background-position: center;
+  padding: 120px;
+}
+.reservations{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.image-container .images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.images img{
+  height: 443px;
+}
+.reservations .text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-container .para{
+  margin: 20px auto;
+}
+.text-container .button{
+  text-align: center;
+}
+.form-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.form-container .input-container{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  width: 100%;
+  color: #cc9900;
+}
+.input-container input[type="text"], input[type="email"],input[type="date"], select[name="Party"]{
+padding: 2px 10px;
+width: 100%;
+border: 1px solid #787878;
+color: #484848;
+font-style: italic;
+}
+.input-container input[type="text"]:focus, input[type="email"]:focus,input[type="date"]:focus, select[name="Party"]:focus{
+  border: 1px solid #cc9900;
+  outline: 0px;
+}
+form .button{
+  margin: 20px auto;
+}
+input[type="submit"]{
+  font-family: "Lato";
+  font-size: 18px;
+  width: 228px;
+  padding: 10px 21px;
+  color: #fff;
+  background: #cc9900;
+  border: 1px solid #cc9900;
+  transition: all .02s linear;
+}
+input[type="submit"]:hover{
+  color: #cc9900;
+  background-color: transparent;
+}
+/* Reservations section ends */
