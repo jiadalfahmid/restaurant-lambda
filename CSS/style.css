@@ -94,16 +94,19 @@ nav ul{
   justify-content: space-around;
   align-items: center;
 }
-nav ul li{
+ul li{
   list-style: none;
+}
+nav ul li a{
   color: #fff;
   font-family: "gentium book black";
   transition: all .02s ease;
   padding: 16px 32px;
   transition: all .03s linear ;
+  text-decoration: none;
 }
 
-ul li:hover{
+ul li a:hover{
 border-bottom: 3px solid #cc9900;
 background-color: #ffffff2f;
 }
@@ -120,6 +123,12 @@ background-color: #ffffff2f;
   display: flex;
   gap: 20px;
   margin-top: 24px;
+  text-align: center;
+}
+
+.banner .buttons a{
+  text-decoration: none;
+  color: #fff;
 }
 /* header section ends */
 /* about section starts */
@@ -283,7 +292,7 @@ background-color: #ffffff2f;
   align-items: center;
   gap: 20px;
 }
-.images img{
+.image-container .images img{
   height: 443px;
 }
 .reservations .text-container{
@@ -315,7 +324,7 @@ background-color: #ffffff2f;
 padding: 2px 10px;
 width: 100%;
 border: 1px solid #787878;
-color: #484848;
+color: #484848b7;
 font-style: italic;
 }
 .input-container input[type="text"]:focus, input[type="email"]:focus,input[type="date"]:focus, select[name="Party"]:focus{
@@ -340,3 +349,25 @@ input[type="submit"]:hover{
   background-color: transparent;
 }
 /* Reservations section ends */
+footer{
+  background-color: #000;
+  height: 320px;
+  text-align: center;
+  padding: 60px;
+}
+footer .text-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+}
+footer .text-container h3{
+  font-size: 21px;
+}
+footer .text-container p,i{
+  color: #ffffff;
+}
+.text-container span{
+  font-weight: 600;
+}
